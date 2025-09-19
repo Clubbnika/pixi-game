@@ -1,0 +1,25 @@
+{
+  "name": "space-shooter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@pixi/app": "^7.4.3",
+    "@pixi/core": "^7.4.3",
+    "@pixi/display": "^7.4.3",
+    "@pixi/graphics": "^7.4.3",
+    "@pixi/text": "^7.4.3",
+    "pixi.js": "^8.13.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.6",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.1"
+  }
+}
