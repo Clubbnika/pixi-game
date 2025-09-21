@@ -4,7 +4,7 @@ import { PlayerBullet } from './PlayerBullet';
 import { Asteroid } from './Asteroid';
 import { Boss } from './Boss';
 import { BossBullet } from './BossBullet';
-import { startLevel1, shootPlayerBullet, endGame, handleCollisions, updateBullets, updateAsteroids } from './gameLogic';
+import { startLevel1, shootPlayerBullet, handleCollisions, updateBullets, updateAsteroids } from './gameLogic';
 import { createStartButton } from './ui';
 import { GAME_CONSTANTS } from './constants';
 

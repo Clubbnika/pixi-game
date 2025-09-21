@@ -1,4 +1,3 @@
-import * as PIXI from 'pixi.js';
 import { PlayerShip } from './PlayerShip';
 import { PlayerBullet } from './PlayerBullet';
 import { Asteroid } from './Asteroid';
@@ -197,6 +196,7 @@ function displayWinScreen() {
     if (!app.ticker.started) app.ticker.start();
 }
 
+// @ts-ignore
 export function handleCollisions(delta: number) {
     if (!gameState.gameStarted) return;
     if (gameState.gameLevel === GAME_CONSTANTS.GAME.LEVELS.ASTEROIDS) {
